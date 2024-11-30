@@ -4,7 +4,7 @@
     require_once "dbconf.php";
     try{
         //query
-        $sql = "SELECT * FROM STUDENTS";
+        $sql = "SELECT * FROM Students";
         //execute the query
         $result = mysqli_query($connect,$sql);
 
