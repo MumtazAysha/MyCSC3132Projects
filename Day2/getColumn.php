@@ -48,7 +48,7 @@ function PrintTableCols($tableName,$connect,$colnames)
 		die($e->getMessage());
 	}
 }
-PrintTableCols("books",$connect,["author","title","isbn"]);
+PrintTableCols("Students",$connect,["id","Name"]);
 
 ?>
 
