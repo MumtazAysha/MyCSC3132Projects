@@ -45,5 +45,5 @@ try {
 }
 
 PrintTable("Students",$connect);
-
+echo "<br>";
 PrintTable("Students",$connect);
